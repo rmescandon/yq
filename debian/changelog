@@ -1,9 +1,11 @@
-yq (3.1.1) eoan; urgency=medium
+yq (3.1-1) UNRELEASED; urgency=medium
 
   * Keeps yaml comments and formatting, can specify yaml tags when updating.
-  * Handles anchors!  https://github.com/mikefarah/yq/issues/310, https://github.com/mikefarah/yq/issues/178
-  * Can print out matching paths and values when splatting https://github.com/mikefarah/yq/issues/20
-  * JSON output works for all commands! Yaml files with multiple documents are printed out as one JSON document per line.
+  * Handles anchors
+  * Can print out matching paths and values when splatting
+  * JSON output works for all commands
+  * Yaml files with multiple documents are printed out as one JSON 
+    document per line.
   * Deep splat (**) to match arbitrary paths
   * Update scripts file format has changed to be more powerful
   * Reading and splatting, matching results are printed once per line
